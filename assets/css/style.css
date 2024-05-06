@@ -570,7 +570,7 @@ body #back-top {
 
 @media(max-width: 767px) {
     body #back-top {
-        display: none !important;
+        /* display: none !important; */
     }
 }
 
