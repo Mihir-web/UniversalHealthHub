@@ -733,3 +733,9 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 .dropdown li{
     list-style:none !important;
 }
+
+@media (min-width:1024px) {
+    .youtube-iframe{
+        height:335px;
+    }
+}
