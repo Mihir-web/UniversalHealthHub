@@ -176,7 +176,7 @@ body {
 }
 
 .header-section .menu ul li.active>a {
-    color: #e1400f;
+    color: #1249b0;
     position: relative;
 }
 
@@ -738,4 +738,8 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     .youtube-iframe{
         height:335px;
     }
+}
+
+.jp-breadcrumb li{
+    margin-left: 0px !important;
 }
