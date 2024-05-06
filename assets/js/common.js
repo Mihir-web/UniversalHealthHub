@@ -197,7 +197,7 @@ $('.grid').isotope({
 // isotop E
 // Wow animation S
 $(document).ready(function() {
-    new WOW({ mobile: false }).init();
+    new WOW({ mobile: true }).init();
 });
 // Wow animation E
 
