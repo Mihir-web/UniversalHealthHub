@@ -240,6 +240,13 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
     color:gray;
 }
 
+@media (max-width: 767px) {
+    .accordian-header{
+        font-size: 15px;
+    }
+}
+
+
 .accordian-header.active{
     color:#000;
     border-bottom: 2px solid black;
