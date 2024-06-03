@@ -208,9 +208,10 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
 
 /* third section style start */
 .cms-third-section {
-    background-image: url('../images/abstract-bg.png');
+    background-image: url('../img/Ellipse.png');
     background-repeat: no-repeat;
-    background-position:  200px 0px;
+    background-position:  22% 50%;
+    background-size: 40%;
 }
 
 .third-section-subtitle{
@@ -387,7 +388,8 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
 }
 
 .testimonial-item {
-    /* width: 30%; */
+    width: 28%;
+    /* margin: 100px !important; */
 }
 
 @media (max-width: 767px) {
