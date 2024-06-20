@@ -39,8 +39,9 @@ body {
 
 /* cms style start*/
 .cms-title{
-    color:#000;
+    color:#E18C26;
     font-weight: bolder;
+    
 }
 
 .cms-title span{
@@ -62,7 +63,8 @@ body {
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     /* background-image: linear-gradient(to right, #6d8fcf, #002467); */
-    background-image: linear-gradient(to right, #6d8fcf, #002467, #002467, #6d8fcf);
+    /* background-image: linear-gradient(to right, #6d8fcf, #002467, #002467, #6d8fcf); */
+    background: linear-gradient(100.22deg, #5374C1 6.57%, #07215D 92.45%);
     box-shadow: 0 4px 7px 0 rgba(31, 31, 31, 0.75);
     color:#fff;
     padding:15px 35px;
@@ -128,6 +130,31 @@ body {
     text-decoration: none;
 }
 
+.cms-button-4{
+    background-size: 300% 100%;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    /* background-image: linear-gradient(to right, #6d8fcf, #002467); */
+    background: linear-gradient(97.33deg, #FFD5A2 -8.93%, #E18C26 88.67%);
+
+    box-shadow: 0 4px 7px 0 rgba(31, 31, 31, 0.75);
+    color:#fff;
+    font-weight: 700;
+    padding:15px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.cms-button-4:hover{
+    /* background-position: 100% 0; */
+    /* color:#fff; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    text-decoration: none;
+}
+
 
 .cms-ul{
     color:#424242c4;
@@ -142,9 +169,298 @@ margin:15px 0;
     color: #073da1;
     text-decoration: none;
 }
+
+.cms-section-title{
+    font-weight: 700;
+    font-size: 28px;
+    color: #000;
+}
+
+.cms-section-title span{
+    color:#223F83;
+}
+
+.cms-footer-link{
+    text-decoration: none;
+    color:#fff;
+    transition: all 0.25s ease-in-out;
+}
+
+.cms-footer-link:hover{
+    color:#E18C26 !important;
+}
+
+h2.section-title{
+    color:#223F83;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h3.section-subtitle{
+    color:#A4B8E5;
+    font-weight: 600;
+    font-size: 22px;
+}
 /* cms style end */
 
 
+/* ----------------------------------------------------------- */
+/* ----------Home page design starts---------- */
+/* ----------------------------------------------------------- */
+
+.home-section{
+    background-color:  #FBFBFB;
+
+}
+
+.banner-section .cms-title{
+    font-weight: 700;
+    font-size: 64px;
+    color:#223F83;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.banner-section .cms-subtitle{
+    font-weight: 700;
+    font-size: 30px;
+    color:#E18C26;
+    text-transform: uppercase;
+}
+
+/* .carousel-inner{
+    overflow: visible  !important;
+} */
+
+.custom-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 5px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #E18C26;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    /* border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px; */
+    transition: opacity .5s ease;
+}
+
+.banner-section .carousel .custom-indicators .active{
+    opacity: 1 ;
+}
+
+.service-one, .service-two, .service-three{
+    transition: all 0.25s ease-in-out !important;
+}
+
+.banner-text{
+    margin: 20px 0 35px 0;
+    /* width: 350px; */
+    font-size: 20px;
+    font-weight: 500;
+    color:#1D1919;
+}
+
+.banner-right{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+
+.circle {
+    /* position: absolute; */
+    border-radius: 50%;
+}
+
+.circle1 {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBF4FF;
+    z-index: 1;
+}
+
+.circle2 {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DBEBFF;
+    z-index: 2;
+}
+
+.circle3 {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C5DFFF;
+    z-index: 3;
+}
+
+.circle4 {
+    width: 150px;
+    height: 150px;
+    background-color: #A6CEFF;
+    z-index: 4;
+    position: relative;
+}
+
+.service-label{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    text-transform:uppercase;
+    font-size: 12px;
+    box-shadow: 0 4px 7px 0 rgba(31, 31, 31, 0.129);
+}
+
+.service-one{
+    position: absolute;
+    width: 100%;
+}
+.service-one div:nth-child(1){
+    position: absolute;
+    top:-100px;
+    right:-100px;
+}
+.service-one div:nth-child(2){
+    position: absolute;
+    top:-60px;
+    left:-100px;
+}
+.service-one div:nth-child(3){
+    position: absolute;
+    top:30px;
+    right:0px;
+}
+.service-one div:nth-child(4){
+    position: absolute;
+    bottom:-130px;
+    right:-160px;
+}
+.service-one div:nth-child(5){
+    position: absolute;
+    bottom:-200px;
+    left:-60px;
+}
+.service-one div:nth-child(6){
+    position: absolute;
+    bottom:-280px;
+    right:-70px;
+}
+
+.service-two{
+    position: absolute;
+    width: 100%;
+}
+.service-three div:nth-child(1){
+    position: absolute;
+    top:-120px;
+    left:-190px;
+}
+.service-two div:nth-child(2){
+    position: absolute;
+    top:-100px;
+    right:-60px;
+}
+.service-two div:nth-child(3){
+    position: absolute;
+    top:-40px;
+    left:-120px;
+}
+.service-two div:nth-child(4){
+    position: absolute;
+    top:80px;
+    right:120px;
+}
+.service-two div:nth-child(5){
+    position: absolute;
+    bottom:-130px;
+    right:-100px;
+}
+.service-two div:nth-child(6){
+    position: absolute;
+    bottom:-200px;
+    left:-80px;
+}
+.service-two div:nth-child(7){
+    position: absolute;
+    bottom:-250px;
+    right:-90px;
+}
+
+
+.service-three{
+    position: absolute;
+    width: 100%;
+}
+
+.service-three div:nth-child(1){
+    position: absolute;
+    top:-120px;
+    left:-90px;
+}
+.service-three div:nth-child(2){
+    position: absolute;
+    top:-40px;
+    right:-100px;
+}
+.service-three div:nth-child(3){
+    position: absolute;
+    top:40px;
+    left:-50px;
+}
+.service-three div:nth-child(4){
+    position: absolute;
+    bottom:-160px;
+    right:-180px;
+}
+.service-two div:nth-child(5){
+    position: absolute;
+    bottom:-250px;
+    right:-90px;
+}
+
+.home-accordian-title{
+    font-weight: 700;
+    font-size: 22px;
+    color:#223F83;
+}
+
+.clients-carousel .client-img{
+    height: 100px;
+    width: 200px;
+    
+}
+
+.clients-carousel .client-img img{
+    height: auto;
+    width: 100%;
+}
+
+/* ----------------------------------------------------------- */
+/* ----------Home page design ends---------- */
+/* ----------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------- */
+/* ----------Education page design starts---------- */
+/* ----------------------------------------------------------- */
 
 /* first section design start*/
 .cms-first-section{
@@ -207,11 +523,11 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
 /* second section design end */
 
 /* third section style start */
-.cms-third-section {
+.cms-third-section .left-side{
     background-image: url('../img/Ellipse.png');
     background-repeat: no-repeat;
-    background-position:  22% 50%;
-    background-size: 40%;
+    background-position: center;
+    background-size: 70%;
 }
 
 .third-section-subtitle{
@@ -243,7 +559,7 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
 .accordian-header{
     font-size: 18px;
     font-weight: 600;
-    padding: 10px;
+    padding: 15px 20px;
     border-bottom: 1px solid gray;
     color:gray;
 }
@@ -255,9 +571,13 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
 }
 
 
+.docs-accordian{
+    --bs-accordion-border-color:transparent;
+}
+
 .accordian-header.active{
-    color:#000;
-    border-bottom: 2px solid black;
+    color: #E18C26;
+    border-bottom: 2px solid #223F83;
 }
 .accordian-content-icon{
     font-size: 35px;
@@ -281,7 +601,7 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
 }
 
 .tab-content .tab-content-item{
-    color:#000;
+    color:#1D1919;
     background-color: #fff;
     border:1px solid rgba(128, 128, 128, 0.273);
     box-shadow: 0 4px 7px 0 rgba(128, 128, 128, 0.167);
@@ -309,6 +629,43 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
 }
 /* fourth section style end */
 
+
+/* social media section start */
+.social-icon{
+    font-size: 20px;
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    transition: all 0.25s ease-in-out;
+    margin:0 10px;
+    text-decoration: none;
+}   
+
+.social-icon:hover{
+    filter:contrast(2);
+}
+
+.social-icon-insta{
+    background-color: #C13584;
+}
+.social-icon-tweeter{
+    background-color: #1DA1F2;
+}
+.social-icon-fb{
+    background-color: #0077B5;
+}
+.social-icon-linkedin{
+    background-color: #3B5998;
+}
+.social-icon-youtube{
+    background-color: #FF0000;
+}
+/* social media section end */
+
 /* /* fifth section style start */
 .cms-fifth-section{
     background-image: linear-gradient(#fff, #f5fbff);
@@ -324,7 +681,7 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
 
 /* testimonial section style start  */
 .testimonial-section{
-    background-image: linear-gradient(45deg, #00588a, #002363, #00588a);
+    background: #EEF6EC;
     margin:0 15px;
     padding: 0;
     border-radius: 12px;
@@ -332,12 +689,12 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
 
 .testimonial-card{
     padding: 20px;
- width: 260px;
+ /* width: 260px; */
  /* height: auto !important; */
 }
 
 .testimonial-section h3{
-    color:#fff;
+    /* color:#fff; */
     font-weight: 650;
 }
 
@@ -366,8 +723,8 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
 }
 
 .testimonial-client-img{
-    height: 50px;
-    width: 50px;
+    height: 40px !important;
+    width: 40px !important;
     border-radius: 50%;
     background-position: center;
     background-size: cover;
@@ -388,7 +745,7 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
 }
 
 .testimonial-item {
-    width: 28%;
+    /* width: 28%; */
     /* margin: 100px !important; */
 }
 
@@ -397,7 +754,7 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
         overflow-y: scroll;
     }
     .testimonial-item {
-        width: 90%;
+        /* width: 90%; */
         
     }
     .testimonials-grid {
@@ -409,30 +766,34 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
   
 
 /* Total scrollbar width */
-.testimonials-grid::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
+.testimonial-comment::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
     /* For horizontal scrollbar */
 }
 
 /* Background of the scrollbar */
-.testimonials-grid::-webkit-scrollbar-track {
+.testimonial-comment::-webkit-scrollbar-track {
     /* background: #f1f1f1; */
 }
 
 /* Handle of the scrollbar */
-.testimonials-grid::-webkit-scrollbar-thumb {
-    background-color: #888; 
+.testimonial-comment::-webkit-scrollbar-thumb {
+    background-color: #88888853; 
     border-radius: 10px;
     /* border: 2px solid #f1f1f1; Optional: for adding space around the thumb */
 }
 
 /* Handle on hover */
-.testimonials-grid::-webkit-scrollbar-thumb:hover {
+.testimonial-comment::-webkit-scrollbar-thumb:hover {
     background-color: #555; 
 }
 
 /* testimonial section style end */
+
+/* ----------------------------------------------------------- */
+/* ----------Education page design ends---------- */
+/* ----------------------------------------------------------- */
 
 /* footer section style start */
 .footer-section{
@@ -478,7 +839,7 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
 
 
 /* ----------------------------------------------------------- */
-/* ----------education detail page design---------- */
+/* ----------education detail page design starts---------- */
 /* ----------------------------------------------------------- */
 
 .certificate-card{
@@ -540,5 +901,13 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
 .testimonial-card{
     background-color: #fff;
     border-radius: 10px;
+    overflow: hidden;
+}
+
+.testimonial-card .testimonial-comment{
+    padding: 10px 0;
+    height: 150px;
+    overflow-y: auto;
+   
 }
 /* testimonial section style end */

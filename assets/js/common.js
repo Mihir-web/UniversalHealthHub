@@ -177,6 +177,41 @@ $(window).on("load resize", function() {
 });
 
 
+var owl5 = $('.testimonial-section-slider.owl-carousel');
+    owl5.owlCarousel({
+        // margin: 20,
+        loop: true,
+        // nav: true,
+        dots: false,
+        lazyLoad: true,
+        // autoplay: true,
+        smartSpeed: 1500,
+        mouseDrag: true,
+        navText: ["<i class='icon-down-long' title='Previous'></i>", "<i class='icon-down-long' title='Next'></i>"],
+        responsive: {
+            0: {
+                items: 1,
+
+            },
+            568: {
+                items: 1,
+
+
+            },
+            767: {
+                items: 1,
+
+            },
+
+            991: {
+                items: 1,
+
+            },
+            1200: {
+                items: 2,
+            }
+        }
+    });
 
 
 
