@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    /* font-family: Manrope; */
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -496,7 +497,7 @@ h3.section-subtitle{
 
 /* first section design start*/
 .cms-first-section{
-background-image: linear-gradient(#e8f5ffb6, #fff);
+background-image: linear-gradient(to bottom, #e8f5ffb6 0%, #fff 90%);
 }
 
 .cms-first-section-content{
@@ -570,6 +571,20 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
 .third-section-title{
     font-weight: 700;
     font-size: 25px;
+}
+
+.youtube-iframe{
+    height:315px;
+    width:560px;
+    border-radius: 12px;
+}
+
+@media (max-width: 767px) {
+.youtube-iframe{
+    height:315px;
+    width:320px;
+    border-radius: 12px;
+}
 }
 /* third section style end */
 
@@ -855,6 +870,7 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
 }
 .footer-widgets ul li{
     list-style-type: none;
+    margin:10px 0;
 }
 
 .footer-widgets ul li a{
@@ -863,7 +879,7 @@ background-image: linear-gradient(#e8f5ffb6, #fff);
 }
 
 .footer-widgets ul li a:hover{
-   color:#073da1;
+   color:#E18C26;
 }
 /* footer section style end */
 
