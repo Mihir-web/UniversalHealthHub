@@ -73,6 +73,11 @@ body {
     text-decoration: none;
 }
 
+.cms-button-1 i, .cms-button-2 i, .cms-button-3 i, .cms-button-4 i{
+    margin-left: 5px;
+    transition: all 0.25s ease-in-out;
+}
+
 .cms-button-1:hover{
     background-position: 100% 0;
     color:#fff;
@@ -80,6 +85,10 @@ body {
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     text-decoration: none;
+}
+
+.cms-button-1:hover i, .cms-button-2:hover i, .cms-button-3:hover i, .cms-button-4:hover i{
+    margin-left: 10px;
 }
 
 .cms-button-2{
@@ -453,6 +462,29 @@ h3.section-subtitle{
     width: 100%;
 }
 
+
+@media (max-width: 767px) {
+    .accordian-right-to-right{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .circle1{
+        width: 270px;
+        height: 270px;
+    }
+    .circle2{
+        width: 220px;
+        height: 220px;  
+    }
+    .circle3{
+        width: 170px;
+        height: 170px;  
+    }
+    .circle4{
+        width: 120px;
+        height: 120px;
+    }
+}
 /* ----------------------------------------------------------- */
 /* ----------Home page design ends---------- */
 /* ----------------------------------------------------------- */
